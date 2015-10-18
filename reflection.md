@@ -1,6 +1,6 @@
-http://zlschatz.github.io/
-http://zlschatz.github.io/blog:index.html
-http://zlschatz.github.io/git.html
+<a href="http://zlschatz.github.io">Homepage</a>
+<a href="http://zlschatz.github.io/blog:index.html">Blog Page</a>
+<a href="http://zlschatz.github.io/git.html">Blog Post</a>
 
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
