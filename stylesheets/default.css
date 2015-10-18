@@ -3,18 +3,22 @@ html {
   color: white;
 }
 
+body{
+  margin: 0;
+}
+
 header{
   position: relative;
   background-color: #378cad;
   height: 5%;
   width: 100%;
-  top: 0;
+  top: -1.5em;
 }
 
 header h2 {
   position: relative;
   left: 3em;
-  padding-top: .1em;
+  padding-top: .7em;
 }
 
 header h4 {
@@ -27,6 +31,15 @@ header h4 {
 
 a {
   color: white;
+}
+
+nav {
+  position: relative;
+  background-color: none;
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  border-radius: 25px;
 }
 
 nav ul{
@@ -50,10 +63,13 @@ section img {
 }
 
 #description{
+  position: relative;
   width: 40%;
   height: 5em;
   word-wrap: auto;
   float: right;
+  top: 10em;
+  right: 5em;
 }
 
 footer ul{
@@ -70,4 +86,6 @@ footer ul{
 
 footer ul li{
   display: inline;
+  position: relative;
+  top: .2em;
 }
