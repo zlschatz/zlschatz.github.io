@@ -6,6 +6,7 @@ section{
   height: 30em;
   text-align: left;
   top: 1.5em;
+  overflow: scroll;
 }
 
 #blogtitles{
@@ -28,3 +29,4 @@ ul {
   bottom: 9em;
   text-align: center;
 }
+
