@@ -13,16 +13,28 @@
 
   <section>
     <p>
-      Hi there! As a DBC student, I'll be maintaining a blog to share my experience with everyone. This week, we're diving into git and managing fundamental components through CLI (command line interface) as well as Github. A week ago, I said to myself, "Sh*t, I don't know git," and maybe you're in the same boat... but fear not! Let's work through a few basic principles together and get to know git.
+      Now that we've explored ways to create a webpage, we'll need to include design elements through CSS. CSS - cascading style sheets - are additional files linked to an HTML index that manipulating stylistic properties. When discussing CSS design and layout properties, we can begin with the "Box Model." Simply put, the box model allows us to add border around our elements and define space between elements.
     </p>
     <p>
-      Git is a software that people use to work together on projects. Git helps groups work together by utilizing version control. You can think of this process as a less user-friendly version of Google Docs. Git is accessed through a command line interface, which can be bare and unappealing to the casual computer user. The reason why many developers learn to use git is because of version control. Version control is the software's ability to track updates (known as commits) while someone is making changes to a file. A developer will commit these updates to mark checkpoints in progression. If for whatever reason the user wants to retrace her steps, version control can display previous commits and resume work at one of those committed points. You can think of this as a checkpoint in a video game, or continuously making a "save as" version of a Word document. Another benefit of version control is that not only can you monitor changes, but you can see the changes that others make to the same file. This facilitates seamless collaboration in group projects.
+      The example diagram below outlines the difference between the padding, border and margin properties.
+    </p>
+      <br>
+      <img src="box-model.gif">
+      <br>
+    <p>
+        It's best to work from the inside out while dissecting a box model. The content in the diagram represents the space where text and images appear within a given element. Padding will include area around the content that cannot be seen. This is used as a means of positioning the content within an element. Next, the border is the space wrapped around the padding and content. When implemented, the border is given a thickness size, style and color. Finally, the margin is transparent space beyond the border. Including a margin will facilitate positioning of one element away from others.
     </p>
     <p>
-      Git helps keep track of all changes by encouraging good habits of clarity with commits. While learning git, mistakes are bound to be made. In my short experience, I've already reverted back to previous commits more times that I can count. After making a commit, it is advised to leave an editing comment as a reminder to yourself - and anyone looking at your work - what has been changed and why. These changes can be reviewed through the "git status" command, instantly reviewing times and comments of all changes.
+      Okay, okay. That may be a lot to handle. Let's go through an example to reinforce the box model properties.
+    </p>
+      <br>
+      <img src="box-model-example.png">
+      <br>
+    <p>
+      The screenshot above is a basic example of applying box model style properties to a div. Let's work from the inside. The content is the text included in the element. There's is a distinct separation between the text and the blue border. This transparent space is the 25px padding that wraps around the text. As previously mentioned, the blue border encloses the padding and content. The code depicts that it will be 25px thick, a solid line and display in a navy color. Finally, there is a 25px margin added to all sides of the element. The spacing between the edge of the page and the element displays our 25px margin (white space) on each side.
     </p>
     <p>
-      A final thought for this post: Don't let Github confuse you with git. Git is the software -- Github is a 3rd party web community that uses git to share projects with one another. Many developers (myself now included) run git on a local machine and push projects to Github for distribution. In fact, I wrote this blog post in a text file, which I uploaded to Github by using git. That being said, Github is a great resource to share code with other developers. It acts as a remote intermediary for projects to live. Github also a great place to find resources and code examples while learning from others.
+      Padding, Borders and Margins are key players while manipulating position through CSS. It will prove to be worthwhile to practice and learn the properties of the box model. Good luck!
     </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->

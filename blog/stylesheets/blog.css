@@ -31,6 +31,5 @@ ul {
 }
 
 #screenshot{
-  border-radius: 0px;
-  top: 0;
+  border-radius: none;
 }
