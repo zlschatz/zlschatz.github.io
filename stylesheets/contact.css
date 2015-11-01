@@ -1,0 +1,12 @@
+#contact_section{
+  text-align: center;
+}
+
+#contact_info {
+  padding-top: 2em;
+}
+
+#contact_info a:link{
+  text-decoration: none;
+  font-style: italic;
+}
