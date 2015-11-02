@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arrays and Hashes</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+</head>
+
+<main>
+  <h1 id="blogtitles">#Map - An Enumberable Methods</h1>
+  <h2 id="blogtitles">Post #4</h2>
+  <h4 id="blogtitles">11.2.15</h4>
+
+  <section>
+    <p>
+      As we've already explored, arrays and hashes are good foundations to organize sets of values within Ruby. They build upon one another to allow developers to manipulate data, and execute returns of new objects. The next step to mastering arrays and hashes is the implementation of Enumerable methods.
+    </p>
+    <p>
+      Simply put, Enumerable methods are groups of methods that are packaged together to run simultaneously. This is useful to programmers as it means we don't have to write each method over and over for future use. Enumerable methods allow us to build sets of methods and tell the array or hash to include this set.
+    </p>
+    <p>
+      One powerful Enumerable method is #map. This method will run a block and return an array filled with whatever the block is told to do each time. This may sound familiar if you've used the #collect method, because they function in the same exact way. Let's see an example of this:
+    </p>
+    <p>
+      <h5>[1, 2, 3].map { |n| n * n } => [1, 4, 9]</h5>
+    </p>
+    <p>
+      In the example, the #map method is passing through the action of multiplying each value by itself. This demonstrates the use of running an operation on each of the array's objects to return them in another array. The #map method is often seen whenever we want to return a series of values together.
+    </p>
+    <p>
+      Enumerable methods are great for condensing code. While working through logic, you may end up with lines upon lines of inital code and look to refactor an answer. Enumerable methods will provide clarity to breakdown redundancies and make code tighter. There are many <a href="http://ruby-doc.org/core-2.2.3/Enumerable.html">more Enumerable</a> methods to learn about as well!
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
