@@ -1,0 +1,21 @@
+section ul{
+  list-style-type: none;
+  margin: 0, auto;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+section ul li{
+  display: inline;
+}
+
+section ul li a{
+  position:relative;
+  top: 10em;
+  padding: 1em;
+  border: solid;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
