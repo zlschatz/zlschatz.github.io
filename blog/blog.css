@@ -1,0 +1,54 @@
+section{
+    overflow: scroll;
+    width: 100%
+}
+
+article {
+    height: 5em;
+    width: 100%;
+    text-align: center;
+}
+a h3 {
+    color: white;
+}
+
+#post_title{
+    color: #d9d9d9;
+}
+
+#post_1{
+    background-color: #2b6d86;
+    padding-top: 3%;
+}
+
+#post_2{
+    background-color: #317c9a;
+    padding-top: 3%;
+}
+
+#post_3{
+    background-color: #378cad;
+    padding-top: 3%;
+}
+
+#post_4{
+    background-color: #3d9cc0;
+    padding-top: 3%;
+}
+
+#post_5{
+    background-color: #50a6c7;
+    padding-top: 3%;
+}
+
+#post_6{
+    background-color: #63b0cd;
+    padding-top: 1%;
+    padding-bottom: 2%
+}
+
+#post_7{
+    background-color: #47a1c4;
+    padding-top: 3%;
+}
+

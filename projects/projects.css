@@ -1,9 +1,8 @@
 section ul{
   list-style-type: none;
-  margin: 0, auto;
-  padding: 0;
+  margin: auto;
   text-align: center;
-  font-size: 1.2em;
+  padding-top: 10%;
 }
 
 section ul li{
@@ -12,10 +11,15 @@ section ul li{
 
 section ul li a{
   position:relative;
-  top: 10em;
-  padding: 1em;
-  border: solid;
   text-decoration: none;
-  border-radius: 2em;
 }
 
+section ul li img {
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+}
+
+section ul li img:hover {
+  border: 1px solid white;
+}
