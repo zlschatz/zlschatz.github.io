@@ -5,6 +5,7 @@ html {
 
 body{
   margin: 0;
+  font-size: 100%;
 }
 
 aside {
@@ -20,9 +21,12 @@ aside {
 }
 
 #vertical-text {
-  height: 25%;
-  line-height: 25%;
   color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 100%;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
