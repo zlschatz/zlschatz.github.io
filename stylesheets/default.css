@@ -39,6 +39,7 @@ section {
   bottom: 0;
   right: 0;
   float: left;
+  padding-top: 8em;
 }
 
 h2 {
@@ -49,9 +50,8 @@ h2 {
 #profile {
   float: left;
   height: 100%;
-  width: 40%;
+  width: 50%;
   text-align: center;
-  margin: 5em auto;
 }
 
 #prof_pic {
@@ -62,17 +62,17 @@ h2 {
   border-color: #580E04;
 }
 
-ul{
+#profile ul{
   width: 100%;
   list-style-type: none;
   padding: 0;
 }
 
-ul li{
+#profile ul li{
   display: inline;
 }
 
-li a img {
+#profile ul li a img {
   height: 1.5em;
   width: 1.5em;
   padding-left: .5em;
@@ -80,6 +80,40 @@ li a img {
   opacity: 0.6;
 }
 
-li a img:hover {
+#profile ul li a img:hover {
   opacity: 1;
 }
+
+#about {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 45%;
+  height: 70%;
+  float: left;
+  font-size: 1.1em;
+}
+
+#about ul {
+  padding: 0;
+  color: #626262;
+  line-height: 1.7em;
+}
+
+#about ul li {
+  margin-left:2em;
+}
+
+#about ul li a {
+  color: #626262;
+}
+
+#about ul li a:hover {
+  color: #3c3c3c;
+}
+
+h4 {
+  margin: 0;
+}
+
+
+
+
