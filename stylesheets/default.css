@@ -7,51 +7,41 @@ body{
   margin: 0;
 }
 
-header{
-  position: relative;
+aside {
+  position: absolute;
+  display: inline-block;
+  width: 15%;
+  top: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+  background-color: #580E04;
+}
+
+#vertical-text {
   height: 25%;
-  width: 100%;
-  top: -1.5em;
-  font-family: Impact, Charcoal, sans-serif;
-  letter-spacing: .01em;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-header h2 {
-  position: relative;
-  left: 3em;
-  width: 40%;
-}
-
-header nav {
-  float: right;
-  top: -4em;
-  padding-right: 4em;
-  font-style: italic;
-  position: relative;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-nav ul{
-  word-spacing: 3em;
-  font-size: 1.2em;
-}
-
-nav ul li{
-  display: inline;
-}
-
-a {
-  color: #797979;
-  text-decoration: none;
+  line-height: 25%;
+  color: #000;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 section {
-  background-color: #378cad;
-  color: white;
-  height: 27em;
+  position: absolute;
+  width: 85%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
 }
+
+
 
 #description{
   position: relative;
