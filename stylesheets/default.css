@@ -1,5 +1,5 @@
 html {
-  background-color: #e5e5e5;
+  background-color: #ebebeb;
   color: #3c3c3c;
 }
 
@@ -16,20 +16,6 @@ aside {
   bottom: 0;
   float: left;
   background-color: #580E04;
-}
-
-#vertical-text {
-  color: #000;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 30%;
-  width: 100%;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 section {
