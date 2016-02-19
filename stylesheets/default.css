@@ -1,5 +1,37 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 3em;
+  height: 3em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+nav ul li {
+  color: #fff;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Gochi Hand', cursive;
+  letter-spacing: 0.2em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: red;
+}
+
 #site-wrapper {
   width: 100%;
   height: 400%;
