@@ -31,7 +31,7 @@ nav ul li a{
 
 nav ul li a:hover{
   text-decoration: none;
-  color: red;
+  color: #580E04;
 }
 
 #nav_logo {
@@ -56,11 +56,29 @@ nav ul li a:hover{
   float: left;
 }
 
+#logo_container {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#home_logo {
+  height: 40%;
+  width: 30%;
+  display: block;
+  position:absolute;
+  top:0; bottom:0; left: 0; right: 0;
+  margin:auto;
+  float: left;
+  opacity: 0.9;
+}
+
 #about {
   width: 25%;
   height: 100%;
-  border: 1px solid green;
-  /*position: relative;*/
+  background-color: #808080;
   float: left;
 }
 
@@ -69,8 +87,24 @@ nav ul li a:hover{
   height: 100%;
   overflow: auto;
   margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0; left: 0; bottom: 0;
   border: 1px solid #fff;
+  float: left;
+}
+
+#portrait_container {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#about_photo {
+  width: 25%;
+  height: 35%;
+  margin-top: 10em;
+  margin-left: 10em;
+  border-radius: 1em;
+  opacity: 0.7;
 }
 
 #work {
