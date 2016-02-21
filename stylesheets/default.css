@@ -50,6 +50,9 @@ nav ul li a:hover{
   width: 25%;
   height: 100%;
   border: 1px solid red;
+  background: url(grey_skyline.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   float: left;
 }
 
@@ -132,7 +135,7 @@ h2 {
   border-radius: 50%;
   border-style: solid;
   border-width: 1px;
-  border-color: #580E04;
+  border-color: #580E04 ;
 }
 
 #profile ul{
