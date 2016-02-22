@@ -117,13 +117,56 @@ footer ul li a:hover{
 }
 
 #about_info {
-  width: 50%;
-  height: 100%;
+  width: 45%;
+  height: 60%;
   overflow: auto;
   margin: auto;
-  top: 0; left: 0; bottom: 0;
-  border: 1px solid #fff;
+  margin-top: 12%;
   float: left;
+  color: #fff;
+  padding-left: 3em;
+  text-align: right;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-size: 200%;
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+h4{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+ul li {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
 }
 
 #portrait_container {
@@ -136,7 +179,7 @@ footer ul li a:hover{
   width: 25%;
   height: 35%;
   margin-top: 10%;
-  margin-left: 15%;
+  margin-left: 10%;
   border-radius: 1em;
   opacity: 0.7;
 }
