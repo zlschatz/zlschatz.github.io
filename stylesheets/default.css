@@ -1,14 +1,222 @@
-html {
-  background-color: #ebebeb;
-  color: #3c3c3c;
+html, body { height: 100%; width: 100%; margin: 0; }
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 3em;
+  height: 3em;
+  text-align: center;
+  z-index: 1;
 }
 
-body{
-  margin: 0;
-  font-size: 100%;
+nav ul {
+  list-style: none;
+  margin: 0 auto;
 }
 
-aside {
+nav ul li {
+  color: #fff;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: #580E04;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.5em;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a img {
+  height: 1em;
+  width: 1em;
+  padding-left: .7em;
+  padding-right: .7em;
+  opacity: 0.6;
+}
+
+footer ul li a{
+  opacity: 0.8;
+}
+
+footer ul li a:hover{
+  opacity: 1;
+}
+
+#nav_logo {
+  width: 3em;
+  height: 2em;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+#site-wrapper {
+  width: 100%;
+  height: 300%;
+  background-color: #000;
+}
+
+#home {
+  width: 100%;
+  height: 33.33%;
+  background: url(grey_skyline.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#logo_container {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#home_logo {
+  height: 40%;
+  width: 30%;
+  display: block;
+  position:absolute;
+  top:0; bottom:0; left: 0; right: 0;
+  margin:auto;
+  float: left;
+  opacity: 0.9;
+}
+
+#about {
+  width: 100%;
+  height: 33.33%;
+  background-color: #7f7f7f;
+  float: left;
+}
+
+#about_info {
+  width: 45%;
+  height: 60%;
+  overflow: auto;
+  margin: auto;
+  margin-top: 12%;
+  float: left;
+  color: #fff;
+  padding-left: 3em;
+  text-align: right;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-size: 200%;
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+h4{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+ul li {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+#portrait_container {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#about_photo {
+  width: 25%;
+  height: 35%;
+  margin-top: 10%;
+  margin-left: 10%;
+  border-radius: 1em;
+  opacity: 0.7;
+}
+
+#work {
+  width: 100%;
+  height: 33.34%;
+  background-color: #7f7f7f;
+  float: left;
+}
+
+#work_container{
+  height: 100%;
+  width: 100%;
+  background-image: url(coming_soon.png);
+  opacity: 0.5;
+}
+
+/*#contact {
+  width: 100%;
+  height: 25%;
+  background-color: #7f7f7f;
+  float: left;
+}
+
+#contact_container {
+  height: 30%;
+  width: 50%;
+  border: 1px solid white;
+  overflow: auto;
+  margin: auto;
+  margin-top: 10%;
+  top: 0; left: 0; right: 0; bottom: 0;
+}*/
+
+
+/*aside {
   position: absolute;
   display: inline-block;
   width: 15%;
@@ -16,9 +224,9 @@ aside {
   bottom: 0;
   float: left;
   background-color: #580E04;
-}
+}*/
 
-section {
+/*section {
   position: absolute;
   width: 85%;
   top: 0;
@@ -26,6 +234,16 @@ section {
   right: 0;
   float: left;
   padding-top: 8em;
+}*/
+
+/*#home {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
@@ -45,7 +263,7 @@ h2 {
   border-radius: 50%;
   border-style: solid;
   border-width: 1px;
-  border-color: #580E04;
+  border-color: #580E04 ;
 }
 
 #profile ul{
@@ -98,7 +316,7 @@ h2 {
 
 h4 {
   margin: 0;
-}
+}*/
 
 
 

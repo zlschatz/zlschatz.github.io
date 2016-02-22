@@ -2,54 +2,70 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Zach Schatz - Web Developer</title>
-<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<title>Zach Schatz</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,700,800' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="application.js"></script>
+
 </head>
 
 <body>
 
-  <aside>
-  </aside>
-
-  <section>
-    <div id="profile">
-      <img id="prof_pic" src="imgs/profile_pic.jpg" alt="Picture of Zach">
-
-      <h2>Zach Schatz</h2>
-
-      <ul>
-        <li><a href="mailto:zachschatz@gmail.com"><img src="imgs/Email.png" alt="Email Icon"></a></li>
-
-        <li><a href="https://twitter.com/zlschatz"><img src="imgs/Twitter.png" alt="Twitter Logo"></a></li>
-
-        <li><a href="https://www.linkedin.com/pub/zachary-schatz/59/234/306"><img src="imgs/LinkedIn.png" alt="Linkedin Logo"></a></li>
-
-        <li><a href="https://github.com/zlschatz"><img src="imgs/Github.png" alt="Github Logo"></a></li>
+  <nav>
+    <ul>
+      <li><a href="#about">about</a></li>
+      <li><a href="#home"><img id="nav_logo" src="imgs/red_web_logo.png"></a></li>
+      <li><a href="#work">work</a></li>
     </ul>
+  </nav>
+
+  <section id="site-wrapper">
+
+    <div id="home">
+      <div id="logo_container">
+        <img id="home_logo" src="imgs/red_web_logo.png">
+      </div>
     </div>
 
     <div id="about">
-      <h3>Web Developer // NYC</h3>
+      <div id="about_info">
+        <h2>Zach Schatz</h2>
+        <h3>I'm a web developer, currently living in NYC.</h3>
+        <p>I love road tripping, skiing, eating and rooting for the Syracuse Orange. <br>Development has become a passion of mine while learning to build in full-stack environments. I continue to seek out opportunities that allow me to grow technically within the development community.</p>
+        <h4>Tech Skills</h4>
+        <ul>
+          <li>Languages: Ruby, JavaScript, HTML5, CSS3</li>
+          <li>Frameworks: Rails, Sinatra, Rspec, ReactJS, React Native</li>
+          <li>Convention: Object-Oriented Programming, RESTful design</li>
+          <li>Databases: ActiveRecord, SQLite, PostgreSQL</li>
+        </ul>
+        <p> </p>
+        <h3>Looking to Collaborate?</h3>
+        <a href="mailto:zachschatz@gmail.com">zachschatz@gmail.com</a>
+      </div>
+      <div id="portrait_contrainer">
+        <img id="about_photo" src="imgs/portrait.png">
+      </div>
+    </div>
 
-      <ul>
-        <h4>Projects</h4>
-        <li><a href="https://github.com/zlschatz/zlschatz.github.io">Personal Site</a></li>
-        <li><a href="#">Speckles (link up soon)</a></li>
-        <br>
-        <h4>Open Source Projects</h4>
-        <li><a href="#">Coming Soon!</a></li>
-        <br>
-        <h4>Good Reads</h4>
-        <li><a href="#">Placeholder</a></li>
-        <li><a href="#">Placeholder</a></li>
-        <li><a href="#">Placeholder</a></li>
-        <li><a href="#">Placeholder</a></li>
-      </ul>
-
+    <div id="work">
+      <div id="work_container"></div>
     </div>
 
   </section>
+
+  <footer>
+    <ul>
+      <li><a href="mailto:zachschatz@gmail.com"><img src="imgs/Email.png" alt="Email Icon"></a></li>
+      <li><a href="https://www.linkedin.com/in/zlschatz" target="_blank"><img src="imgs/LinkedIn.png" alt="Linkedin Logo"></a></li>
+      <li><a href="https://github.com/zlschatz" target="_blank"><img src="imgs/Github.png" alt="Github Logo"></a></li>
+      <li><a href="https://twitter.com/zlschatz" target="_blank"><img src="imgs/Twitter.png" alt="Twitter Logo"></a></li>
+    </ul>
+  </footer>
 
 </body>
 
