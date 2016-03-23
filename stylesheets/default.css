@@ -246,10 +246,10 @@ ul li {
   }
 
   #about_photo {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     margin-top: 15%;
-    margin-left: 28%;
+    margin-left: 35%;
     border-radius: 1em;
     opacity: 0.7;
   }
