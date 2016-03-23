@@ -1,86 +1,158 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 
-@media screen and (min-width:600px) {
-  nav {
-    position: fixed;
-    width: 100%;
-    line-height: 3em;
-    height: 3em;
-    text-align: center;
-    z-index: 1;
-  }
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 3em;
+  height: 3em;
+  text-align: center;
+  z-index: 1;
+}
 
-  nav ul {
-    list-style: none;
-    margin: 0 auto;
-  }
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
 
-  nav ul li {
-    color: #fff;
-    display: inline;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    font-size: 1em;
-  }
+nav ul li {
+  color: #fff;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
 
-  nav ul li a{
-    text-decoration: none;
-    color: #fff;
-  }
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
 
-  nav ul li a:hover{
-    text-decoration: none;
-    color: #580E04;
-  }
+nav ul li a:hover{
+  text-decoration: none;
+  color: #580E04;
+}
 
-  footer {
-    position: fixed;
-    bottom: 0.5em;
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-  }
+footer {
+  position: fixed;
+  bottom: 0.5em;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
 
-  footer ul {
-    list-style: none;
-    margin: 0 auto;
-  }
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+}
 
-  footer ul li {
-    display: inline;
-  }
+footer ul li {
+  display: inline;
+}
 
-  footer ul li a img {
-    height: 1em;
-    width: 1em;
-    padding-left: .7em;
-    padding-right: .7em;
-    opacity: 0.6;
-  }
+footer ul li a img {
+  height: 1em;
+  width: 1em;
+  padding-left: .7em;
+  padding-right: .7em;
+  opacity: 0.6;
+}
 
-  footer ul li a{
-    opacity: 0.8;
-  }
+footer ul li a{
+  opacity: 0.8;
+}
 
-  footer ul li a:hover{
-    opacity: 1;
-  }
+footer ul li a:hover{
+  opacity: 1;
+}
 
-  #nav_logo {
-    width: 3em;
-    height: 2em;
-    vertical-align: middle;
-    opacity: 0.8;
-  }
+#nav_logo {
+  width: 3em;
+  height: 2em;
+  vertical-align: middle;
+  opacity: 0.8;
+}
 
-  #site-wrapper {
-    width: 100%;
-    height: 300%;
-    background-color: #000;
-  }
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-size: 200%;
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+h4{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+ul li {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+#site-wrapper {
+  width: 100%;
+  height: 300%;
+  background-color: #7f7f7f;
+}
+
+#logo_container {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#about {
+  width: 100%;
+  height: 33.33%;
+  background-color: #7f7f7f;
+  float: left;
+}
+
+#work {
+  width: 100%;
+  height: 33.34%;
+  background-color: #7f7f7f;
+  float: left;
+}
+
+#work_container{
+  height: 100%;
+  width: 100%;
+  background-image: url(coming_soon.png);
+  opacity: 0.5;
+}
+
+/* Desktop CSS */
+@media all and (min-width:480px) {
 
   #home {
     width: 100%;
@@ -91,17 +163,9 @@ html, body { height: 100%; width: 100%; margin: 0; }
     float: left;
   }
 
-  #logo_container {
-    width: 50%;
-    height: 100%;
-    overflow: auto;
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
-  }
-
   #home_logo {
-    height: 40%;
-    width: 30%;
+    height: 300px;
+    width: 400px;
     display: block;
     position:absolute;
     top:0; bottom:0; left: 0; right: 0;
@@ -110,92 +174,84 @@ html, body { height: 100%; width: 100%; margin: 0; }
     opacity: 0.9;
   }
 
-  #about {
+  #about_info {
+    width: 40%;
+    height: 60%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 6em;
+    float: right;
+    color: #fff;
+    padding-right: 5em;
+    text-align: left;
+  }
+
+  #portrait_container {
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+
+  #about_photo {
+    width: 20%;
+    height: 30%;
+    margin-top: 8em;
+    margin-left: 20%;
+    border-radius: 1em;
+    opacity: 0.7;
+    float: left;
+  }
+}
+
+/* Mobile CSS */
+@media only all and (max-width:479px) {
+
+
+  #home {
     width: 100%;
     height: 33.33%;
     background-color: #7f7f7f;
     float: left;
   }
 
+  #home_logo {
+    height: 200px;
+    width: 300px;
+    display: block;
+    position:absolute;
+    top:0; bottom:0; left: 0; right: 0;
+    margin:auto;
+    float: left;
+    opacity: 0.9;
+  }
+
   #about_info {
-    width: 45%;
-    height: 60%;
-    overflow: auto;
+    width: 90%;
+    height: 40%;
+    overflow: scroll;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 5%;
     float: left;
     color: #fff;
-    padding-left: 3em;
-    text-align: right;
-  }
-
-  h2{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.2em;
-    font-size: 200%;
-  }
-
-  h3{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-  }
-
-  h4{
-    font-family: 'Dosis', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     text-align: left;
-  }
-
-  p {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-    letter-spacing: .05em;
-  }
-
-  a{
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-  }
-
-  ul li {
-    text-align: left;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-    letter-spacing: .05em;
   }
 
   #portrait_container {
-    width: 50%;
+    width: 100%;
     height: 100%;
     float: left;
   }
 
   #about_photo {
-    width: 25%;
-    height: 35%;
-    margin-top: 10%;
-    margin-left: 10%;
+    width: 200px;
+    height: 300px;
+    margin-top: 15%;
+    margin-left: 28%;
     border-radius: 1em;
     opacity: 0.7;
   }
 
-  #work {
-    width: 100%;
-    height: 33.34%;
-    background-color: #7f7f7f;
-    float: left;
-  }
-
-  #work_container{
-    height: 100%;
-    width: 100%;
-    background-image: url(coming_soon.png);
-    opacity: 0.5;
-  }
 }
