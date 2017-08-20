@@ -1,4 +1,4 @@
-html, body { height: 100%; width: 100%; margin: 0; }
+html, body { height: 100%; width: 100%; margin: 0; background-color: #bcbbbb; }
 
 nav {
   position: fixed;
@@ -58,6 +58,7 @@ footer ul li a img {
   padding-left: .7em;
   padding-right: .7em;
   opacity: 0.6;
+  cursor: pointer;
 }
 
 footer ul li a{
@@ -118,8 +119,8 @@ ul li {
 
 #site-wrapper {
   width: 100%;
-  height: 300%;
-  background-color: #7f7f7f;
+  height: 100%;
+  background-color: #bcbbbb;
 }
 
 #logo_container {
@@ -133,14 +134,14 @@ ul li {
 #about {
   width: 100%;
   height: 33.33%;
-  background-color: #7f7f7f;
+  background-color: #bcbbbb;
   float: left;
 }
 
 #work {
   width: 100%;
   height: 33.34%;
-  background-color: #7f7f7f;
+  background-color: #bcbbbb;
   float: left;
 }
 
@@ -157,7 +158,7 @@ ul li {
   #home {
     width: 100%;
     height: 33.33%;
-    background: url(../imgs/grey_skyline.png);
+    /*background: url(../imgs/grey_skyline.png);*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     float: left;
@@ -210,7 +211,7 @@ ul li {
   #home {
     width: 100%;
     height: 33.33%;
-    background-color: #7f7f7f;
+    background-color: #bcbbbb;
     float: left;
   }
 
