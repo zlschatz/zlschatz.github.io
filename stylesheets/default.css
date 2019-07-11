@@ -1,258 +1,133 @@
-html, body { height: 100%; width: 100%; margin: 0; background-color: #bcbbbb; }
+html, body { height: 100%; margin: 0; background-color: #F2F2F2; }
 
-nav {
-  position: fixed;
-  width: 100%;
-  line-height: 3em;
-  height: 3em;
-  text-align: center;
-  z-index: 1;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 auto;
-}
-
-nav ul li {
-  color: #fff;
-  display: inline;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.2em;
-  font-size: 1em;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: #fff;
-}
-
-nav ul li a:hover{
-  text-decoration: none;
-  color: #580E04;
-}
-
-footer {
-  position: fixed;
-  bottom: 0.5em;
+.icon-container {
   width: 100%;
   text-align: center;
-  z-index: 1;
 }
 
-footer ul {
+.icon-container ul {
   list-style: none;
   margin: 0 auto;
+  padding: 0;
 }
 
-footer ul li {
+.icon-container ul li {
   display: inline;
 }
 
-footer ul li a img {
-  height: 1em;
-  width: 1em;
+.icon-container ul li a img {
+  height: 4em;
+  width: 4em;
   padding-left: .7em;
   padding-right: .7em;
   opacity: 0.6;
   cursor: pointer;
 }
 
-footer ul li a{
+.icon-container ul li a{
   opacity: 0.8;
 }
 
-footer ul li a:hover{
+.icon-container ul li a:hover{
   opacity: 1;
 }
 
-#nav_logo {
-  width: 3em;
-  height: 2em;
-  vertical-align: middle;
-  opacity: 0.8;
-}
-
-h2{
-  font-family: 'Dosis', sans-serif;
-  font-weight: 800;
-  letter-spacing: 0.2em;
-  font-size: 200%;
-}
-
-h3{
-  font-family: 'Dosis', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-}
-
-h4{
-  font-family: 'Dosis', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-align: left;
-}
-
-p {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
-  letter-spacing: .05em;
-}
-
-a{
-  text-decoration: none;
-  color: #fff;
-  font-family: 'Dosis', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-ul li {
-  text-align: left;
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
-  letter-spacing: .05em;
-}
-
 #site-wrapper {
-  width: 100%;
   height: 100%;
-  background-color: #bcbbbb;
+  background-color: #F2F2F2;
+  position: relative;
 }
 
-#logo_container {
-  width: 50%;
-  height: 100%;
-  overflow: auto;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+#container {
+  position:absolute;
+  left:0; 
+  right:0;
+  top:0; 
+  bottom:0;
+  margin:auto;
+  background-color: #fff;
+  height: 600px;
+  width: 90%;
 }
 
-#about {
-  width: 100%;
-  height: 33.33%;
-  background-color: #bcbbbb;
-  float: left;
+.container-fluid {
+  height: 600px;
 }
 
-#work {
-  width: 100%;
-  height: 33.34%;
-  background-color: #bcbbbb;
-  float: left;
+.row.content {
+  height: inherit;
 }
 
-#work_container{
-  height: 100%;
-  width: 100%;
-  background-image: url(../imgs/coming_soon.png);
-  opacity: 0.5;
+.col-sm-6 {
+  height: inherit;
 }
 
-/* Desktop CSS */
-@media all and (min-width:480px) {
+.container-content {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  width: 90%;
+  padding: 3rem;
+}
 
-  #home {
-    width: 100%;
-    height: 33.33%;
-    /*background: url(../imgs/grey_skyline.png);*/
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    float: left;
+.description{
+  line-height: 1.75;
+  padding: 1.5rem 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-content h3 {
+  line-height: 2;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.container-content h6 {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.portrait {
+  height: 600px;
+  background-image: url(../imgs/profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Tablet Breakpoint */
+@media only all and (max-width:768px) {
+
+}
+
+/* Mobile Breakpoint */
+@media only all and (max-width: 767px) {
+
+  #container {
+    height: 750px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
-  #home_logo {
-    height: 300px;
-    width: 400px;
-    display: block;
-    position:absolute;
-    top:0; bottom:0; left: 0; right: 0;
-    margin:auto;
-    float: left;
-    opacity: 0.9;
+  .portrait {
+    height: 310px;
   }
 
-  #about_info {
-    width: 40%;
-    height: 60%;
-    overflow: auto;
-    margin: auto;
-    margin-top: 6em;
-    float: right;
-    color: #fff;
-    padding-right: 5em;
-    text-align: left;
+  .content {
+    height: 400px;
   }
 
-  #portrait_container {
-    width: 50%;
+  .container-content {
+    text-align: center;
+    top: 50%;
+  }
+
+  .container-fluid {
     height: 100%;
-    float: right;
-  }
-
-  #about_photo {
-    width: 20%;
-    height: 30%;
-    margin-top: 8em;
-    margin-left: 20%;
-    border-radius: 1em;
-    opacity: 0.7;
-    float: left;
-  }
-}
-
-/* Mobile CSS */
-@media only all and (max-width:479px) {
-
-
-  #home {
-    width: 100%;
-    height: 33.33%;
-    background-color: #bcbbbb;
-    float: left;
-  }
-
-  #home_logo {
-    height: 200px;
-    width: 300px;
-    display: block;
-    position:absolute;
-    top:0; bottom:0; left: 0; right: 0;
-    margin:auto;
-    float: left;
-    opacity: 0.9;
-  }
-
-  #about_info {
-    width: 90%;
-    height: 40%;
-    overflow: scroll;
-    margin: auto;
-    margin-top: 5%;
-    float: left;
-    color: #fff;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    text-align: left;
-  }
-
-  #portrait_container {
-    width: 100%;
-    height: 100%;
-    float: left;
-  }
-
-  #about_photo {
-    width: 150px;
-    height: 200px;
-    margin-top: 15%;
-    margin-left: 35%;
-    border-radius: 1em;
-    opacity: 0.7;
   }
 
 }
